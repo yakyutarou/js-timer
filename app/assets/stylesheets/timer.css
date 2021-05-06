@@ -27,6 +27,30 @@ body {
 }
 
 #input-form .input-text + .input-text,
-#input-form .input-text + .submit{
+#input-form .input-text + .submit {
   margin-top:1rem;
+}
+
+/* 1st line */
+.input-text input{
+  border: 1px solid #e6e6e6;
+  width: 6em;
+  line-height: 30px;
+  text-align: center;
+}
+
+.input-text label{
+  display:block;
+  padding: 0 1em;
+  width:6em;
+}
+
+/* 2nd line */
+.input-text span{
+  display:inline-block;
+  white-space: nowrap;
+}
+
+.input-text span + span{
+  margin-left: 1em;
 }
